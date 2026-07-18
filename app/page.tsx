@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { Header } from "@/modules/header/Header";
 
 export default function Home() {
   return (
     <div >
-      Easymetric
+      <Header />
     </div>
   );
 }
