@@ -64,7 +64,7 @@ export function Header() {
 
             {/* Mobile/Tablet Menu Drawer */}
             {isOpen && (
-                <div className="absolute top-full mt-2 right-6 w-[320px] bg-brand-dark/80 backdrop-blur-xl border border-white/10 py-6 px-6 flex flex-col gap-6 md:hidden z-40 rounded-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] animate-[fadeIn_0.2s_ease-out]">
+                <div className="absolute top-full mt-2 right-6 min-w-62.5 md:min-w-75 max-w-[320px] bg-brand-dark/80 backdrop-blur-xl border border-white/10 py-6 px-6 flex flex-col gap-6 md:hidden z-40 rounded-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] animate-[fadeIn_0.2s_ease-out]">
                     {/* Navigation Links */}
                     <nav className="flex flex-col gap-3">
                         {
