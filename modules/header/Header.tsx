@@ -27,7 +27,7 @@ export function Header() {
                         <Link
                             href={link.href}
                             key={link.href}
-                            className="hover:text-white hover:scale-105 transition-all duration-300"
+                            className="hover:text-white hover:scale-105 transition-all duration-300 text-nowrap"
                         >
                             {link.label}
                         </Link>
@@ -55,7 +55,7 @@ export function Header() {
             <button
                 id="menu__btn"
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex md:hidden border border-white/10 w-10 h-10 rounded-lg justify-center items-center transition-all active:scale-95 touch-manipulation cursor-pointer bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white hover:border-brand-green/30"
+                className="flex md:hidden border border-brand-green w-10 h-10 rounded-lg justify-center items-center transition-all active:scale-95 touch-manipulation cursor-pointer bg-brand-green/10 hover:bg-brand-green/15 text-brand-green"
                 aria-expanded={isOpen}
                 aria-label="Toggle navigation menu"
             >
